@@ -101,6 +101,13 @@ Le processeur étant conçu sur **8 bits**, les nombres utilisés sont compris e
 Dans l’exemple fourni dans le fichier `programme.txt`, le programme calcule le PGCD(252, 198) en utilisant l’algorithme d’Euclide par soustractions successives.
 quand le programme trouve le PGCD, il réinitialise le compteur interne de l’unité de contrôle et désactive les battements d’horloge. Pour relancer à nouveau le programme, il suffit d'actionner le bouton « reset » de l’unité de contrôle. 
 
-le PGCD des deux nombres sera affiché sur le bus de données quand le programme aura finit son exécution.
 
 ![CODE PGCD](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/code%20assembleur%20du%20PGCD%20.png?raw=true)
+
+le PGCD des deux nombres sera affiché sur le bus de données quand le programme aura finit son exécution, ici pour le PGCD(255,198) le résultat sera 18, et il s'affiche ainsi : 
+
+![PGCD RESULT](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/Resultat%20pgcd.png?raw=true)
+# IMPORTANT 
+- pour exécuter le code de l'assembleur, les deux fichiers `Python_Assembleur.py` et `programme.txt` doivent obligatoirement se trouver dans le même dossier pour éviter les erreurs de compilation liées au chemin du fichier `programme.txt`, les deux fichiers `instructions.txt` et `data.txt` seront générés dans le dossier courant du fichier `Python_Assembleur.py`.
+- vous devez disposer de la version `Logisim Evolution 4.0.0` vous pouvez le télécharger ici : 
+![LOGISIM DWNLD](https://filehippo.com/fr/download_logisim-evolution/4.0.0/)
