@@ -109,6 +109,6 @@ le PGCD des deux nombres sera affiché sur le bus de données quand le programme
 ![PGCD RESULT](https://github.com/azerty654/8-BITS-Microprocesseur-demo/blob/main/Project_Picture/Resultat%20pgcd.png?raw=true)
 # IMPORTANT 
 - pour exécuter le code de l'assembleur, les deux fichiers `Python_Assembleur.py` et `programme.txt` doivent obligatoirement se trouver dans le même dossier pour éviter les erreurs de compilation liées au chemin du fichier `programme.txt`, les deux fichiers `instructions.txt` et `data.txt` seront générés dans le dossier courant du fichier `Python_Assembleur.py`.
-- il est préférable d'avoir la version `Logisim Evolution 4.0.0` du logiciel pour éviter tout problème de compatibilité ,vous pouvez le télécharger ici :
+- il est préférable d'avoir la version `Logisim Evolution 4.0.0` du logiciel pour éviter tout problème de compatibilité, vous pouvez la télécharger ici :
 https://filehippo.com/fr/download_logisim-evolution/4.0.0/
 
